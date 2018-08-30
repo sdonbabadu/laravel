@@ -8,4 +8,4 @@ RUN docker-php-ext-install mbstring \
         pdo
 
 RUN useradd -u 1000 -ms /bin/bash app
-USER www-data
+USER app
